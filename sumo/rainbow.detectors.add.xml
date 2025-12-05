@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+
+    <laneAreaDetector id="e2_north_0"
+                      lane="1036458923#1_0"
+                      pos="59"
+                      length="20"
+                      freq="120"
+                      file="e2_output_north.xml" />
+
+    <laneAreaDetector id="e2_north_1"
+                      lane="1036458923#1_1"
+                      pos="59"
+                      length="20"
+                      freq="120"
+                      file="e2_output_north.xml" />
+
+    <laneAreaDetector id="e2_north_2"
+                      lane="1036458923#1_2"
+                      pos="59"
+                      length="20"
+                      freq="120"
+                      file="e2_output_north.xml" />
+
+    <laneAreaDetector id="e2_north_3"
+                      lane="1036458923#1_3"
+                      pos="59"
+                      length="20"
+                      freq="120"
+                      file="e2_output_north.xml" />
+
+    <laneAreaDetector id="e2_north_4"
+                      lane="1036458923#1_4"
+                      pos="59"
+                      length="20"
+                      freq="120"
+                      file="e2_output_north.xml" />
+
+    <laneAreaDetector id="e2_south_0"
+                      lane="1025123968#2_0"
+                      pos="10"
+                      length="20"
+                      freq="120"
+                      file="e2_output_south.xml" />
+
+    <laneAreaDetector id="e2_south_1"
+                      lane="1025123968#2_1"
+                      pos="10"
+                      length="20"
+                      freq="120"
+                      file="e2_output_south.xml" />
+
+    <laneAreaDetector id="e2_south_2"
+                      lane="1025123968#2_2"
+                      pos="10"
+                      length="20"
+                      freq="120"
+                      file="e2_output_south.xml" />
+
+    <laneAreaDetector id="e2_south_3"
+                      lane="1025123968#2_3"
+                      pos="10"
+                      length="20"
+                      freq="120"
+                      file="e2_output_south.xml" />
+
+    <laneAreaDetector id="e2_south_4"
+                      lane="1025123968#2_4"
+                      pos="10"
+                      length="20"
+                      freq="120"
+                      file="e2_output_south.xml" />
+
+    <laneAreaDetector id="e2_east_0"
+                      lane="1059469655#3_0"
+                      pos="37.5"
+                      length="20"
+                      freq="120"
+                      file="e2_output_east.xml" />
+
+    <laneAreaDetector id="e2_east_1"
+                      lane="1059469655#3_1"
+                      pos="37.5"
+                      length="20"
+                      freq="120"
+                      file="e2_output_east.xml" />
+
+    <laneAreaDetector id="e2_east_2"
+                      lane="1059469655#3_2"
+                      pos="37.5"
+                      length="20"
+                      freq="120"
+                      file="e2_output_east.xml" />
+
+    <laneAreaDetector id="e2_east_3"
+                      lane="1059469655#3_3"
+                      pos="37.5"
+                      length="20"
+                      freq="120"
+                      file="e2_output_east.xml" />
+
+    <laneAreaDetector id="e2_east_4"
+                      lane="1059469655#3_4"
+                      pos="37.5"
+                      length="20"
+                      freq="120"
+                      file="e2_output_east.xml" />
+
+    <laneAreaDetector id="e2_west_0"
+                      lane="1055949679#3_0"
+                      pos="65"
+                      length="20"
+                      freq="120"
+                      file="e2_output_west.xml" />
+
+    <laneAreaDetector id="e2_west_1"
+                      lane="1055949679#3_1"
+                      pos="65"
+                      length="20"
+                      freq="120"
+                      file="e2_output_west.xml" />
+
+    <laneAreaDetector id="e2_west_2"
+                      lane="1055949679#3_2"
+                      pos="65"
+                      length="20"
+                      freq="120"
+                      file="e2_output_west.xml" />
+
+    <laneAreaDetector id="e2_west_3"
+                      lane="1055949679#3_3"
+                      pos="65"
+                      length="20"
+                      freq="120"
+                      file="e2_output_west.xml" />
+
+    <laneAreaDetector id="e2_west_4"
+                      lane="1055949679#3_4"
+                      pos="65"
+                      length="20"
+                      freq="120"
+                      file="e2_output_west.xml" />
+
+	
+	<laneData id="ld_all"
+        file="lanedata.xml"
+        period="120"
+        writeAttributes="density speed waitingTime departed arrived entered left" />
+</additional>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="car" accel="1.5" decel="4.5" sigma="0.5"
+           length="5" maxSpeed="20" guiShape="passenger"/>
+
+    <!-- through routes that cross the intersection -->
+    <route id="N2S" edges="1025123965#1 1025123967#0 1025123968#2 1411671892#0 1025123972#0 1025123972#1 1025123972#2 1043663393"/>
+    <route id="S2N" edges="256354058#3 256354058#4 1036458922#0 1036458922#1 1036458923#1 1036458927#0 1036458930#0"/>
+    <route id="E2W" edges="1059469661 1059469660 1059469656#0 1059469656#1 1059469655#3 1037137263#0 1037137264 1037137266#0 1037137267 1025123971#0"/>
+    <route id="W2E" edges="1055949672#0 1055949676 1055949677#0 1055949678#1 1025123969#0 1055949679#3 1415800620#0 1415800619 1074429761#0 1415800617#0 1415800617#1 1415800618#0"/>
+
+    <!-- 0–600 s - low demand on all approaches     -->
+    <flow id="f_N2S_low_0_600" type="car" route="N2S"
+          begin="0" end="600" vehsPerHour="400" departLane="random"/>
+    <flow id="f_S2N_low_0_600" type="car" route="S2N"
+          begin="0" end="600" vehsPerHour="400" departLane="random"/>
+    <flow id="f_E2W_low_0_600" type="car" route="E2W"
+          begin="0" end="600" vehsPerHour="400" departLane="random"/>
+    <flow id="f_W2E_low_0_600" type="car" route="W2E"
+          begin="0" end="600" vehsPerHour="400" departLane="random"/>
+
+    <!-- 600–1800 s - NS heavy, EW light                       -->
+    <flow id="f_N2S_NSheavy_600_1800" type="car" route="N2S"
+          begin="600" end="1800" vehsPerHour="2200" departLane="random"/>
+    <flow id="f_S2N_NSheavy_600_1800" type="car" route="S2N"
+          begin="600" end="1800" vehsPerHour="2200" departLane="random"/>
+
+    <flow id="f_E2W_NSheavy_600_1800" type="car" route="E2W"
+          begin="600" end="1800" vehsPerHour="800" departLane="random"/>
+    <flow id="f_W2E_NSheavy_600_1800" type="car" route="W2E"
+          begin="600" end="1800" vehsPerHour="800" departLane="random"/>
+
+    <!-- 1800–3000 s - EW heavy, NS light                      -->
+    <flow id="f_N2S_EWheavy_1800_3000" type="car" route="N2S"
+          begin="1800" end="3000" vehsPerHour="800" departLane="random"/>
+    <flow id="f_S2N_EWheavy_1800_3000" type="car" route="S2N"
+          begin="1800" end="3000" vehsPerHour="800" departLane="random"/>
+
+    <flow id="f_E2W_EWheavy_1800_3000" type="car" route="E2W"
+          begin="1800" end="3000" vehsPerHour="2200" departLane="random"/>
+    <flow id="f_W2E_EWheavy_1800_3000" type="car" route="W2E"
+          begin="1800" end="3000" vehsPerHour="2200" departLane="random"/>
+
+    <!-- 3000–3600 s - both directions heavy                   -->
+
+    <flow id="f_N2S_botheavy_3000_3600" type="car" route="N2S"
+          begin="3000" end="3600" vehsPerHour="2000" departLane="random"/>
+    <flow id="f_S2N_botheavy_3000_3600" type="car" route="S2N"
+          begin="3000" end="3600" vehsPerHour="2000" departLane="random"/>
+
+    <flow id="f_E2W_botheavy_3000_3600" type="car" route="E2W"
+          begin="3000" end="3600" vehsPerHour="2000" departLane="random"/>
+    <flow id="f_W2E_botheavy_3000_3600" type="car" route="W2E"
+          begin="3000" end="3600" vehsPerHour="2000" departLane="random"/>
+
+</routes>
